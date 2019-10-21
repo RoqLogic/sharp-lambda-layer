@@ -1,0 +1,20 @@
+service: sharp-lambda-layer
+provider:
+  name: aws
+
+layers:
+  sharp:
+    path: ./layer
+    compatibleRuntimes:
+      - nodejs10.x
+    package:
+      include:
+        - node_modules/**
+
+resources:
+  Outputs:
+    SharpLayerExport:
+      Value:
+        Ref: SharpLambdaLayer
+      Export:
+        Name: SharpLambdaLayer

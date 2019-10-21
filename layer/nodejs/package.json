@@ -1,0 +1,11 @@
+{
+  "name": "sharp-lambda-layer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Jamie Aronson",
+  "license": "ISC",
+  "dependencies": {
+    "sharp": "^0.23.1"
+  }
+}
