@@ -6,7 +6,7 @@ layers:
   sharp:
     path: ./layer
     compatibleRuntimes:
-      - nodejs10.x
+      - nodejs12.x
     package:
       include:
         - node_modules/**
